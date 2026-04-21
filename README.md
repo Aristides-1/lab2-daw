@@ -2,9 +2,9 @@
 ## Laboratorio 02: Git y GitHub  
 
 ### Integrantes:
--Cervantes Apaza, Diego Aristides
--Martell Gallegos, Alexandra
--Ulloa Salas, Sebastian Donato
+-Cervantes Apaza, Diego Aristides  
+-Martell Gallegos, Alexandra  
+-Ulloa Salas, Sebastian Donato  
 
 ### Descripción:
 En este laboratorio se trabajó de forma colaborativa utilizando Git y GitHub para implementar una clase `Calculator` en Java.  
