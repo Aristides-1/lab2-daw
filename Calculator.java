@@ -10,7 +10,7 @@ class Calculator {
         return 0;
     }
     int div(int a, int b){
-        return 0;
+        return a/b;
     }
     int mod(int a, int b){
         return 0;
