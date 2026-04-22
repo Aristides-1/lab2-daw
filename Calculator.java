@@ -12,9 +12,14 @@ class Calculator {
 
         
     int sub(int a, int b){ 
+        Scanner scanner= new scanner(System.in);
+        System.out.print("Ingrese el minuendo"));
+        a=scanner.nextInt();
+        sustraendo=b;
+        resta=minuendo-sustraendo;
         
         
-        return 0; }
+        return sustraendo; }
     int mul(int a, int b){ 
         
         
