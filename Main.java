@@ -1,10 +1,15 @@
-
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Calculator calculadora = new Calculator();
         Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Ingresa el primer número: ");
+        int a = scanner.nextInt();
+
+        System.out.print("Ingresa el segundo número: ");
+        int b = scanner.nextInt();
 
         System.out.println("¿Qué operación deseas?");
         System.out.println("1. Suma");
@@ -14,12 +19,6 @@ public class Main {
         System.out.println("5. Módulo");
         System.out.print("Elige una opción: ");
         int opcion = scanner.nextInt();
-
-        System.out.print("Ingresa el primer número: ");
-        int a = scanner.nextInt();
-
-        System.out.print("Ingresa el segundo número: ");
-        int b = scanner.nextInt();
 
         switch (opcion) {
             case 1:
@@ -40,7 +39,6 @@ public class Main {
             default:
                 System.out.println("Opción no válida");
         }
-
         scanner.close();
     }
 }
